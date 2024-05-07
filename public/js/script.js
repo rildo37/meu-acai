@@ -44,11 +44,29 @@ var locaisComerciais = [
       coordenadas: { lat: 0.0505232, lng: -51.0558501 },
       avaliacao: 4.5
   },
-  // Adicione os outros locais comerciais aqui...
+  {
+    nome: "Super Açaí",
+    endereco: "R. Santa Catarina, 750 - Santa Rita, Macapá",
+    coordenadas: { lat:  0.0382402, lng:  -51.0786972 },
+    avaliacao: 4.8
+  },
+  {
+    nome: "Açaí Paulinho",
+    endereco: "Av. Pedro Baião, 1298 - Central, Macapá",
+    coordenadas: { lat:  0.0302787, lng:  -51.0653983 },
+    avaliacao: 4.7
+  },
+  {
+    nome: "Açaí Premium",
+    endereco: "Remédios, Santana",
+    coordenadas: { lat:   -0.0541168, lng:  -51.1662683 },
+    avaliacao: 4.7
+  },
+  
 ];
 
 // Iterar sobre os locais comerciais e adicionar marcadores ao mapa
 locaisComerciais.forEach(function(local) {
   var marker = L.marker([local.coordenadas.lat, local.coordenadas.lng]).addTo(mymap);
-  marker.bindPopup("<b>Nome do local:</b> " + local.nome + "<br><b>Endereço:</b> " + local.endereco + "<br><b>Avaliação:</b> " + local.avaliacao);
+  marker.bindPopup("<b>Batedeita:</b> " + local.nome + "<br><b>Endereço:</b> " + local.endereco + "<br><b>Avaliação:</b> " + local.avaliacao);
 });

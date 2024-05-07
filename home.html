@@ -6,15 +6,47 @@
   <title>Home</title>
   <!-- Inclua os estilos CSS do Leaflet -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <link rel="stylesheet" href="style.css">
-  <style>
-  
-  </style>
+  <link rel="stylesheet" href="./public/css/home.css" />
 </head>
-<body>
+<body>  
+  <div class="container">
+    <!-- barra de navegação -->
+    <nav>
+      <ul>
+        <a href="#" class="link"><li>Home</li></a>
+        <a href="#sobre" class="link"><li>Sobre</li></a>
+        <a href="#ranking" class="link"><li>Ranking</li></a>
+        <a href="./public/pages/login.html" class="link"><li>Login</li></a>
+      </ul>
+    </nav>
+    <!-- conteudo da pagina -->
+    <section>
+      <!-- sobre -->
+      <div id="sobre">
+        <img src="./public/assests/00 img.png" alt="" srcset="" class="logo">
+        <p class="text">Meu Açai e um software de localização de bandeiras de açai o intuito e facilitação e comercialização do açai tanto para o produtor quanto para o cliente, facilitando o cliente chegar ate sua batedeira assim aumentando a produção no setor de vendas.</p>
+      </div>
+      <!-- mapa -->
+      <div id="mapid"></div>
+      <!-- modelo -->
+      <div id="modelo">
+        <p class="text">um modelo do nosso mapa para geolocalização para verificar quais batedeiras estão abertas e suas avaliações, levando ainda mais cliente para sua batedeira assim ajudando o comerciante de açai local. Podendo realizar buscas de outros produtos como farinha ou um peixe para entrega ou retirada.</p>
+      </div>
+      <!-- ranking -->
+      <div id="ranking">
+        <h1 class="text" id="title"> Ranking</h1>
+        <img src="./public/assests/rank.png" alt="" srcset="" class="rank">
+        <p class="text">Na nossa plataforma tem um ranking para classificar as batedeira de açai como as melhores do mercado com as maiores avaliações, quais estão aberta, se são abertas 24 horas com as melhores classificações</p>
+      </div>
+    </section>
+  </div>
 
-<div id="mapid"></div>
+  
 
-<script src="./public/js/script.js"></script>
+  <!-- Inclua o script JS do Leaflet -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Inclua o seu script JS personalizado -->
+  <script src="./public/js/script.js"></script>
+
 </body>
 </html>

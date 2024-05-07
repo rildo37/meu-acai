@@ -1,4 +1,4 @@
 # meu açai
 
-autor: jose igor
-autor: rildo
+* autor: jose igor
+* autor: rildo

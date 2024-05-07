@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* cotainer */
+.container{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    position: absolute;
+    background-image: linear-gradient(rgb(55, 2, 58), rgb(0, 0, 0));
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    width: 270px;
+    height: 291px;
+    background: #4e0051;
+    border-radius: 3px;
+    box-shadow: 0px 28px 37px -11px #350238;
+}
+.campos{
+    padding: 10px;
+    width: 183px;
+    outline: none;
+    border-style: none;
+    border-radius: 3px;
+    margin-top: 19px;
+}
+#button{
+    padding: 10px;
+    margin-top: 263px;
+    margin-left: -140px;
+    border-radius: 3px;
+    outline: none;
+    border-style: none;
+    position: absolute;
+    cursor: pointer;
+}
+.cadastro{
+    position: absolute;
+    margin-top: 263px;
+    margin-left: 99px;
+    color: white;
+}
+form{
+    height: 290px;
+    margin-top: -43px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

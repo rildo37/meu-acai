@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#mapid {
+    height: 600px; /* Defina a altura do mapa conforme necessário */
+    width: 100%; /* Faça o mapa ocupar toda a largura do contêiner pai */
+}
+
+  /* Estilos para aumentar a largura da caixa do pop-up */
+.leaflet-popup-content {
+    max-width: 200px; /* Defina a largura máxima conforme necessário */
+}
